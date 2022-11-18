@@ -3,7 +3,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs'); 
 
-
 const licenseBadgeLinks = {
     MIT: `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`,
     Mozzilla: `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)`,
@@ -11,6 +10,7 @@ const licenseBadgeLinks = {
     Unlicense: `[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)`,
   };
   
+
   const READMEOutput = (data) => `## ${data.title}
 ${data.licenseBadge}
 
