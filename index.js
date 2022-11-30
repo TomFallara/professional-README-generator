@@ -37,7 +37,7 @@ ${data.usage}
  
 ## Contriubtion Guidelines
  
-${data.contribution}
+${data.contributions}
  
 ## License
  
